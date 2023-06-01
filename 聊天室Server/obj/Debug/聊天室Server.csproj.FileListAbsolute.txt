@@ -1,0 +1,12 @@
+C:\Users\USER\source\repos\聊天室\聊天室Server\bin\Debug\聊天室Server.exe.config
+C:\Users\USER\source\repos\聊天室\聊天室Server\bin\Debug\聊天室Server.exe
+C:\Users\USER\source\repos\聊天室\聊天室Server\bin\Debug\聊天室Server.pdb
+C:\Users\USER\source\repos\聊天室\聊天室Server\obj\Debug\聊天室Server.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\聊天室\聊天室Server\obj\Debug\聊天室Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\source\repos\聊天室\聊天室Server\obj\Debug\聊天室Server.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\聊天室\聊天室Server\obj\Debug\聊天室Server.exe
+C:\Users\USER\source\repos\聊天室\聊天室Server\obj\Debug\聊天室Server.pdb
+C:\Users\USER\source\repos\聊天室\聊天室Server\bin\Debug\聊天室Server.exe.manifest
+C:\Users\USER\source\repos\聊天室\聊天室Server\bin\Debug\聊天室Server.application
+C:\Users\USER\source\repos\聊天室\聊天室Server\obj\Debug\聊天室Server.exe.manifest
+C:\Users\USER\source\repos\聊天室\聊天室Server\obj\Debug\聊天室Server.application

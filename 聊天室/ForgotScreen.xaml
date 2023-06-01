@@ -1,0 +1,143 @@
+﻿<Window x:Class="聊天室.ForgotScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:聊天室"
+        mc:Ignorable="d"
+        Title="RegisterScreen" Height="525" Width="365"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF5F2F2" Offset="1"/>
+                <GradientStop Color="#FFE89677" Offset="0.134"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.CacheMode>
+            <BitmapCache/>
+        </Grid.CacheMode>
+
+        <Label 
+            Content="Chat Platform" 
+            HorizontalAlignment="Center" 
+            Margin="0,10,0,0" 
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="0.647,1.882" 
+            FontFamily="Segoe Print" 
+            FontSize="32" 
+            Foreground="#FF324444"/>
+
+        <Separator x:Name="separator" Margin="0,-130,0,226" Background="Black">
+            <Separator.Effect>
+                <DropShadowEffect/>
+            </Separator.Effect>
+        </Separator>
+
+        <TextBox 
+            x:Name="UserData_TB1" 
+            HorizontalAlignment="Center" 
+            Margin="0,215,0,0" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="200" 
+            Height="30" 
+            Background="White" 
+            BorderBrush="Black" 
+            FontSize="20" 
+            Cursor="" 
+            MaxLength="10"/>
+
+        <PasswordBox 
+            x:Name="UserData_TB2" 
+            HorizontalAlignment="Center" 
+            Margin="0,336,0,0" 
+            VerticalAlignment="Top" 
+            Width="200" 
+            Height="28" 
+            BorderBrush="Black" 
+            FontSize="20" 
+            Foreground="Black" 
+            MaxLength="9"/>
+
+        <Button 
+            x:Name="Submit" 
+            Content="Submit" 
+            HorizontalAlignment="Left" 
+            Margin="37,412,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Segoe Print" 
+            FontSize="20" 
+            Background="#FFF0D2C7" 
+            Foreground="#FF324444" 
+            Width="100" 
+            FontWeight="Bold" Click="Submit_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button 
+            x:Name="Back" 
+            Content="Back" 
+            HorizontalAlignment="Left" 
+            Margin="223,412,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Segoe Print" 
+            FontSize="20" 
+            Background="#FFF0D2C7" 
+            Foreground="#FF354648" 
+            Width="100" 
+            FontWeight="Bold" RenderTransformOrigin="0.53,0.045" Click="Back_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Label x:Name="UserData_Label1" 
+            Content="ID" 
+            HorizontalAlignment="Center" 
+            Margin="0,149,0,0" 
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="0.647,1.882" 
+            FontFamily="Segoe Print" 
+            FontSize="32" 
+            Foreground="#FF394A4C"/>
+
+        <Label x:Name="UserData_Label2" 
+            Content="Password" 
+            HorizontalAlignment="Center" 
+            Margin="0,265,0,0"
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="0.647,1.882" 
+            FontFamily="Segoe Print" 
+            FontSize="32" 
+            Foreground="#FF37484A"/>
+
+        <RadioButton x:Name="ForgotAccount" 
+            Content="忘記帳號" 
+            HorizontalAlignment="Left" 
+            Margin="37,120,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Microsoft Yi Baiti" 
+            FontSize="24" 
+            Foreground="Black" 
+            FontWeight="Bold" 
+            FontStyle="Italic" 
+            IsChecked="True" Checked="ForgotAccount_Checked"/>
+
+        <RadioButton x:Name="ForgotPassword" 
+            Content="忘記密碼" 
+            HorizontalAlignment="Left" 
+            Margin="189,120,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Microsoft Yi Baiti" 
+            FontSize="24" 
+            Foreground="Black" 
+            FontWeight="Bold" 
+            FontStyle="Italic" Checked="ForgotPassword_Checked"/>
+    </Grid>
+</Window>
